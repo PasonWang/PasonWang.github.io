@@ -9,56 +9,84 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+| **求职意向** | **技术美术 (TA)**  |  电话 | 15076051607 | **邮箱** | [dizhiyinya@163.com](mailto:dizhiyinya@163.com)
+| **工作年限** | 6年 | **学历** | 东北大学 (985/211) · 应用统计学 |
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## 核心优势
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+- **工业化资产管控**：熟悉3d资产全生命周期管理，熟悉多种DCC环境，能够快速学习了解软件，使用对应语言完成工具开发。
+- **跨平台管线开发**：具备Maya — UE 深度开发能力。打通美术生产与引擎落地的关键环节。
+- **产品思维与效能优化**：具备敏锐的成本意识，善于通过工具手段平衡“品质上限”与“开发成本”。曾主导管理258个工具库的治理，通过优先级排序，将核心工具覆盖率提升至90%以上。
+- **技术与协作**：兼具较强的逻辑思维与沟通能力，具有良好的学习能力，性格开朗，抗压能力强。不仅能独立开发复杂系统，还能面向美术团队编写标准化文档，降低工具上手门槛，提升团队整体产能。
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## 专业技能
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+- **DCC与引擎**：Autodesk Maya (Python/MEL/Qt), Substance Painter, Substance Designer,Unreal Engine (C++/蓝图/Chaos物理), Blender
+- **开发语言**：Python (熟练), C++ (熟练), mel, MaxScript, JavaScript, SQL, Shell,
+- **流程与规范**：PBR资产规范制定、LOD策略、骨骼绑定与蒙皮规范、XGen工业化流程
+- **辅助工具**：Git (版本控制), Deadline (渲染管理), ComfyUI (AIGC集成)
+- **专业认证**：软件设计师（中级）、华为软件开发通用能力认证(工作级， Python)、服务工作的网络安全证书
+
+## 工作经历
+
+### 火石传媒有限公司 | 插件开发工程师 (Pipeline TD方向) | 2023.04 - 至今
+
+**核心职责**：负责生产管线的工具链开发与标准化制定，深入美术制作环节，通过自动化手段解决生产瓶颈，提升资产交付质量与迭代效率。
+
+### 核心项目一：MiguBox 一体化资产生产与质控平台
+
+- **核心贡献**：
+    
+    **1.全链路效率工具矩阵（提效）**：
+    
+    - **全链路涵盖**：涵盖**通用、模型、贴图、绑定、动画、渲染**多个方面，包括开发文件路径解析工具，Pose编辑器及权重重分配工具，提升绑效60%；搭建Web任务管理系统、Maya插件启动器及Deadline渲染提交工具等，调研美术团队开发需求与痛点，着力解决在阻碍生产效率提升的环节。
+    - **生态集成**：打破工具孤岛，将分散的资产检查、任务管理、插件调用、渲染提交等功能深度集成于MiguBox单一平台。制作人员无需在复杂目录中寻找工具，通过统一界面即可完成从“任务领取 → 资产制作 → 自动检查 → 一键渲染”的全流程操作，大幅降低工具切换成本与学习门槛。
+    
+    **2. 资产质检与规范体系（提质）**
+    
+    - **规范落地**：开发Maya资产自动化检查工具，强制执行PBR规范。涵盖模型拓扑（多边面/自相交）、UV布局（拉伸/重叠/利用率）、骨骼层级等关键指标，从源头杜绝非法资产进入引擎。
+    - **成果**：构建了集“制作-检查-管理”于一体的工业化生产中枢，支撑公司核心项目全流程，提升资产制作效率，缩短资产平均验收周期。
+- **成果**：构建了集“**制作-检查-管理**”于一体的工业化生产中枢，支撑公司核心项目全流程，提升资产制作效率，缩短资产平均验收周期。
+
+### 核心项目二：MiguPlugin UE 工具系统开发
+
+- **核心贡献**：
+    - **UE插件管理架构**：基于C++开发 **UEmigu 插件管理工具**，构建了统一的插件加载与配置框架，实现了Maya与UE工具界面的统一化与标准化。
+    - **Maya布料转UE自动化工具**：攻克了物理属性映射难题。开发专用转换工具，实现了从Maya导出的FBX文件，能够自动识别并映射对应的物理材质。
+    - **效果一致性优化**：针对引擎实时计算的局限性，优化了布料约束参数（Constraint Settings），确保在UE中运行的布料效果与Maya离线渲染的效果**视觉差异最小化**，避免了美术的重复调试。
+- **成果**：打通布料资产从DCC到引擎，将原本需要手动调整数小时的布料参数缩短为一键导入自动适配，保证了物理效果的统一性与高品质。
+
+### 核心项目三：XGen 工业化流程工具集
+
+- **核心贡献**：
+    - **命名空间适配**：攻克了含命名空间场景下的XGen导入导出难题，确保生长面与描述信息的正确映射。
+    - **资产化管理**：开发 **XGen毛发迁移工具**，实现以“描述”为单位的毛发资产打包，并支持在新场景中一键重命名、重建并绑定。
+- **成果**：实现了XGen毛发从“手工制作”到“资产复用”的跨越，提升了环节的效率。
+
+### 核心项目四：AIGC 生产流程集成 (ComfyUI)
+
+- **核心贡献**：
+    - **DCC无缝集成**：将ComfyUI工作流深度集成至 **Maya** 与 **Substance Painter** 中，开发桥接工具，支持场景截图、文生图、图生图及结果自动保存。
+    - **云端化部署**：开发 **Comfy Cloud 桥接工具**，解决本地算力不足问题，实现Maya直连云端算力进行AI推理。
+    - 工作流开发：开发纹理生成提取工作流，法线等贴图生成等工作流，涵盖文生图，图生图多种场景，集成至Substance Painter中形成自动贴图插件工具，提升工作效率；开发
+- **成果**：为美术提供了“所想即所得”的AI辅助设计环境，缩短了概念到资产的迭代周期。
+
+### 工具生态建设 (MiguPlugins)
+
+- **插件库治理**：主导插件库的规范化整理，对**258个**插件进行测试与修复，最终整理出**133个**高质量插件，并撰写详细技术文档与使用范例。
+- **启动器开发**：开发Maya多版本启动器，支持自定义预设、插件搜索及工具架集成。
+
+### 软通动力技术服务有限公司 | Python/C++ 工程师 | 2019.07 - 2022.08
+
+**核心职责**：负责高性能计算工具的架构设计与开发，培养了极强的代码规范意识与大型系统重构能力。
+
+- **昇腾芯片AI模型调优工具**：作为核心开发，负责底层性能分析工具的开发与三次重大重构。**能力迁移**：这段经历赋予了我极强的**性能瓶颈分析**与**底层逻辑优化**能力，可直接应用于游戏引擎的性能分析与资源优化工作。
+- **云核心网补丁管理系统**：负责补丁网站的运维与发布，积累了扎实的Web后端开发与数据处理能力。
+
+## 教育背景
+
+**东北大学** (985/211)  - 应用统计学- 2015.09 - 2019.06
+
+- 扎实的数学功底（概率论、实变函数）赋予了极强的逻辑推理能力
+- 计算机图形学基础，能够快速理解图形学算法原理并转化为高效的工具代码
+- 美国大学生数学建模三等奖
