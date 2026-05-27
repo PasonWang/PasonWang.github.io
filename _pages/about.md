@@ -7,6 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-<!-- 本页面由程序生成，Hello, humans！很高兴与你相遇！ -->
--- 本页面由程序生成，Hello, humans！很高兴与你相遇！ --
-   本页面由程序生成，Hello, humans！很高兴与你相遇！
+
+
+
+<div align="center"><font size="4"><b>本页面由程序生成，Hello, humans！很高兴与你相遇！</b></font></div>
+
+
+
+
+
+
